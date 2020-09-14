@@ -16,10 +16,6 @@ app.config['JWT_BLACKLIST_TOKEN_CHECKS']=['access','refresh']#enabling blacklist
 app.secret_key = 'jose' #app.config['JWT_SECRET_KEY']
 api = Api(app)
 
-@app.before_first_request
-def create_tables():
-    db.create_all()
-
 
 jwt = JWTManager(app) #not creating /auth end point
 @jwt.user_claims_loader
