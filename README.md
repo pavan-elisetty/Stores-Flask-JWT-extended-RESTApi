@@ -2,7 +2,7 @@
 
 ==========================================================================================
 
- *A set of REST_API's for a store with CRUD operations and secure authentication powered by flask_jwt_extended , using heroku-PostgreeSql and deployed on Heroku*
+ *REST_API for a store with CRUD operations and secure authentication powered by flask_jwt_extended , using heroku-PostgreeSql and deployed on Heroku*
 
 ==========================================================================================
 
@@ -39,5 +39,5 @@
 
 [REST_API](https://stores-flask-jwt-extended.herokuapp.com/)
 
-***better to test APIs with postman***
+***better to test APIs with postman development environment***
         
